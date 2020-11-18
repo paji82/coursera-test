@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Module2 Assignment</title>
+<style>
+
+/********** Base styles **********/
+* {
+  /*box-sizing: border-box;*/
+}
+
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+p {
+  border: 1px solid black;
+  background-color: blue;
+  /*width: 30%;
+  height: 25px;
+  margin-right: auto;
+  margin-left: auto;*/
+  font-family: Helvetica;
+  color: white;
+  /*float: right;*/
+  text-align: center;
+}
+
+/* Simple Responsive Framework. 
+.row {
+  width: 100%;
+}*/
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  #p1 {
+    width: 100px;
+    height: 25px;
+  }
+  #p2 {
+    width: 80%;
+  }
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #p1 {
+    width: 100px;
+    height: 25px;
+  }
+  #p2 {
+    width: 80%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  #p1 {
+    width: 100px;
+    height: 25px;
+  }
+  #p2 {
+    width: 80%;
+  }
+}
+
+</style>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<h1>Our Menu</h1>
+
+<div class="row">
+  <div><p id="p1">Chicken</p><p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!</p></div>
+  <div><p id="p1">Beef</p><p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!</p></div>
+  <div><p id="p1">Sushi</p><p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!</p></div>
+
+</div>
+
+</body>
+</html>
