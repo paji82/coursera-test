@@ -1,0 +1,127 @@
+body {
+  font-size: 16px;
+  color: #111111;
+  /*background-color: #E6E6FA;*/
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #FFC0CB;
+  border-radius: 0;
+  /*border: 0*/
+  border: 2px solid #61122f;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #555555;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 10px;
+  visibility: hidden;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.maintext{
+ font-size: 1.5em;
+ margin-top: 5px;
+ margin-bottom: 15px;
+ /*letter-spacing: .1em;*/
+ font-weight: bold;
+}
+
+#Chicken{
+  /*height: 1000px;*/
+  background-color: #4169E1;
+  margin-top: 25px;
+  padding: 10px 15px 10px 15px;
+}
+
+#Chicken h3{
+  font-size: 1.2em;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+#Beef{
+  /*height: 1000px;*/
+  background-color: #4169E1;
+  margin-top: 25px;
+  padding: 10px 15px 10px 15px;
+}
+
+#Beef h3{
+  font-size: 1.2em;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+#Sushi{
+  /*height: 1000px;*/
+  background-color: #4169E1;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  padding: 10px 15px 10px 15px;
+}
+
+#Sushi h3{
+  font-size: 1.2em;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+
+  @media (max-width: 767px) {
+  #nav-list { /* Collapsed nav menu text */
+    visibility: visible;
+  } 
+
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    border: 1px solid #61122f;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  
+
+
+
+
